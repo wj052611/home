@@ -1,0 +1,29 @@
+<html>
+<head>
+<title> HAHAHAHAHAHAHAHAHAHAHAHAHAHAHA</title>
+<meta charest="utf-8">
+<meta name="viewport" content="eidth=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>와~ 재미있.는 숫자맞추기~</h1>
+<script>
+answer = Math.floor(Math.random()*100)
+//alert(answer)
+mytry = 1
+myanswer = -1
+while ( answer != myanswer ) {
+ myanswer = Number(prompt("숫자 입력"))
+ alert(myanswer)
+if (myanswer == answer) {
+  alert("축추루축추ㅜㄱ축축" + mytry + "번째에 맞추셨습니다.")
+  break
+  }
+  if(myanswer > answer ) alert("더 적은 값을 입력하시오")
+  if(myanswer < answer ) alert("더 큰 값을 입력하시오")
+  mytry++
+} 
+document.write("답은" + answer + "였습니다. 당신은" + mytry + "번째에 맞추셨습니다.")  
+</script>
+</body>
+</html>
+
