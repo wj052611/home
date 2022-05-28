@@ -24,7 +24,7 @@ input { height:50px; font-size:25px }
 <input type="button" value="ALL(3)STOP" onclick="allStop()" class="b">
 <br><br>
 <input type="checkbox" id="sori" style="height:10">
-<label for="sori">죠용히</label> <input type="text" id="result" size=8 style="height:45">
+<label for="sori">조용히</label> <input type="text" id="result" size=8 style="height:45">
 </h1></form></center>
 <script>
 game = false
@@ -63,11 +63,11 @@ function result(){
   if ( (document.images["first"].src == document.images["second"].src)  &&
             (document.images["first"].src == document.images["third"].src) ) {
       playAudio2();
-      document.getElementById('result').value = "축하합니다~*"
+      document.getElementById('result').value = "와아아앙~*"
   }
   else {
       playAudio3()
-      document.getElementById('result').value = "다음 기회에~"
+      document.getElementById('result').value = "ㅋ"
   }
 }
 function end(num){
