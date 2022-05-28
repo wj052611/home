@@ -11,7 +11,7 @@ num2 = num.split(" ")
 num3 = num2.map(Number)
 max = -1
 for ( i=0 ; i<num3.length ; i++ ) {
-  if ( num3[i] < min ) {
+  if ( num3[i] > max ) {
       max = num3[i]
     }
 }
